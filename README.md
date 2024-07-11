@@ -41,14 +41,14 @@ This Python module provides functionality for searching and retrieving informati
 To use this module, you need to download the wilaya file containing the Wilaya and Commune data and import it using:
 
 ```
-from wilaya import handler
+from wilayati import handler
 ```
 
 #### Usage Example:
 
 ```python
 # Import the handler class from the module
-from wilaya import handler
+from wilayati import handler
 
 # Create an instance of the handler class
 handler_instance = handler()
