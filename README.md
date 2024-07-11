@@ -1,4 +1,4 @@
-# Module Description: Algerian Location Handler
+# Module Description: Algerian Wilayas Repository
 
 This Python module provides functionality for searching and retrieving information about Algerian Wilayas (provinces) and their respective Communes (municipalities). The module reads data from JSON files containing detailed information about Wilayas and Communes and provides methods to access this information based on specific criteria.
 
