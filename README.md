@@ -1,4 +1,4 @@
-### Module Description: Algerian Location Handler
+# Module Description: Algerian Location Handler
 
 This Python module provides functionality for searching and retrieving information about Algerian Wilayas (provinces) and their respective Communes (municipalities). The module reads data from JSON files containing detailed information about Wilayas and Communes and provides methods to access this information based on specific criteria.
 
@@ -20,7 +20,7 @@ There are:
 - 58 Wilayas (Provinces).
 - 1541 Communes (City, Municipality).
 
-#### Features:
+## Features:
 
 1. **Search by Wilaya Code**:
    - Method: `searchByCode(wilayaCode)`
