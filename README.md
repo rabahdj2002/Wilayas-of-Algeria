@@ -6,21 +6,21 @@ This repository contains the list of all the administrative provinces and cities
 
 The data is up-to-date according to the official source of the Algerian Interior Ministry, including the 10 new Wilayas.
 
-## Languages:
+## Languages :
 
 The list is available in:
  
 - Arabic language.
 - French language.
 
-## Data:
+## Data :
 
 There are:
 
 - 58 Wilayas (Provinces).
 - 1541 Communes (City, Municipality).
 
-## Features:
+## Features :
 
 1. **Search by Wilaya Code**:
    - Method: `searchByCode(wilayaCode)`
@@ -54,7 +54,7 @@ There are:
    - Returns: A dictionary containing information about the Baladiya.
    - Raises: Exception if the provided name is invalid or not found.
 
-## Installation:
+## Installation :
 
 To use this module, you need to download the wilaya file containing the Wilaya and Commune data and import it using:
 
@@ -62,7 +62,7 @@ To use this module, you need to download the wilaya file containing the Wilaya a
 from wilayati import handler
 ```
 
-## Usage Example:
+## Usage Example :
 
 ```python
 # Import the handler class from the module
@@ -90,6 +90,6 @@ print(baladiya_info_by_name)
 
 
 
-## Summary:
+## Summary :
 
 This module is a handy tool for accessing and processing information about Algerian Wilayas and Communes. It simplifies the process of retrieving data based on codes or names, making it useful for applications requiring geographical data handling within Algeria.
