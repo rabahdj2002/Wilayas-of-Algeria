@@ -2,6 +2,24 @@
 
 This Python module provides functionality for searching and retrieving information about Algerian Wilayas (provinces) and their respective Communes (municipalities). The module reads data from JSON files containing detailed information about Wilayas and Communes and provides methods to access this information based on specific criteria.
 
+This repository contains the list of all the administrative provinces and cities in Algeria.
+
+The data is up-to-date according to the official source of the Algerian Interior Ministry, including the 10 new Wilayas.
+
+## Languages
+
+The list is available in:
+ 
+- Arabic language.
+- French language.
+
+## Data
+
+There are:
+
+- 58 Wilayas (Provinces).
+- 1541 Communes (City, Municipality).
+
 #### Features:
 
 1. **Search by Wilaya Code**:
