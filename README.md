@@ -36,7 +36,7 @@ There are:
    - Parameters: 
      - `name` (str): The name of the Wilaya to search for.
    - Returns: A dictionary containing information about the Wilaya.
-   - Raises: Exception if the provided name is invalid or not found.
+   - Raises: `ValueError` if the provided name is invalid or not found.
 
 3. **Get Baladiyat (Communes) of a Wilaya**:
    - Method: `getBaladiyat(wilayaCode)`
@@ -44,7 +44,7 @@ There are:
    - Parameters: 
      - `wilayaCode` (int): The code of the Wilaya.
    - Returns: A list of dictionaries, each containing information about a Baladiya.
-   - Raises: Exception if the provided code is invalid or out of range.
+   - Raises: `ValueError` if the provided code is invalid or out of range.
 
 4. **Search for a Baladiya by Name**:
    - Method: `searchBaladiya(baladiyaName)`
@@ -52,11 +52,21 @@ There are:
    - Parameters: 
      - `baladiyaName` (str): The name of the Baladiya to search for.
    - Returns: A dictionary containing information about the Baladiya.
-   - Raises: Exception if the provided name is invalid or not found.
+   - Raises: `ValueError` if the provided name is invalid or not found.
 
 ## Installation :
 
-To use this module, you need to download the wilaya file containing the Wilaya and Commune data and import it using:
+```bash
+pip install wilayati
+```
+
+or from source:
+
+```bash
+pip install .
+```
+
+Then import the handler:
 
 ```
 from wilayati import handler
